@@ -169,4 +169,103 @@
 // let items = ["apple", 45, true, "banana", false, 33, "grape"]
 
 // Create 3 new variables: one that holds only the strings, one for numbers, and one for booleans (all picked manually using index).
-var items = ["apple", 45, true, "banana", false, 33, "grape"]; 
+// var items = ["apple", 45, true, "banana", false, 33, "grape"]; 
+// var str = [items[0],items[3],items[6]];
+// console.log(str);
+// console.log(typeof str); 
+// var num = [items[1],items[5]]; 
+// console.log(num);
+// console.log(typeof num); 
+// var bool = [items[2],items[4]]; 
+// console.log(bool);
+// console.log(typeof bool); 
+
+
+// Given: question 21
+// let students = ["Ali", "Sara", "Ahmed", "Noor", "Zain"]
+
+// Manually move "Noor" to the first position and push all others forward.
+        // var students = ["Ali", "Sara", "Ahmed", "Noor", "Zain"];
+        // var newArray = [students[3],students[0],students[1],students[2],students[4]];
+        // console.log(newArray);
+        // console.log(typeof newArray);
+        // console.log(newArray.length);
+
+        // question 22 
+// Create this nested array manually:
+// let nested = [[10, 20], [30, 40], [50, 60]]
+
+// Swap the first and last inner arrays, so it becomes [[50, 60], [30, 40], [10, 20]].
+
+        // var  nested = [[10, 20], [30, 40], [50, 60]]; 
+        // var newArray = [nested[2],nested[1],nested[0]]; 
+        // console.log(newArray);
+
+// question 23
+        // Given this pattern array:
+// ["*", "**", "***", "****"]
+
+// Print the third and fourth values together in a single line like: "*** ****".
+// var array = ['*','**','***','****'];
+// alert(array[2] + ' ' + array[3]);
+
+
+// question 24;
+// You are given:
+// let scores = [88, 72, 91, 65, 79]
+
+// Manually find the highest and lowest score by comparing each with each. 
+
+//  var scores = [88, 72, 91, 65, 79];
+//  if (scores[1] > )
+
+
+// question no 25; 
+// var userInput = prompt('check skill available');
+// var skill = ['javascript','html','css','react', 'node'];
+// var personDetailed = ['basit','20', 'male', 'smit',skill]; 
+// if(userInput == personDetailed[4][1]||
+//         userInput == personDetailed[4][2]|| 
+//         userInput == personDetailed[4][0]||
+//         userInput == personDetailed[4][3]||
+//         userInput == personDetailed [4][4]
+// ){console.log('skill available');}
+// else{console.log('skill not available');}
+
+
+// 
+// 🔹 Question 1:
+// You have a user input to check if a city is part of the student’s travel history.
+
+// var travelHistory = ['karachi', 'lahore', 'islamabad', 'quetta', 'peshawar'];
+// var student = ['ali', 22, 'male', 'pakistan', travelHistory];
+                // var city = prompt('enter a city to check that it is available in student tour');
+                // var travelHistory = ['karachi', 'lahore', 'islamabad', 'quetta', 'peshawar'];
+                //  var student = ['ali', 22, 'male', 'pakistan', travelHistory];
+                //  if (city == student[4][0]|| 
+                //         city == student[4][1]|| 
+                //         city == student [4][2]|| 
+                //         city == student [4][3]||
+                //         city == student [4][4]
+
+                //  ){console.log('city is available');}
+                //  else {console.log('city is not available');}
+
+
+                // 
+                // 🔹 Question 2:
+// You have this structure:
+// var hobbies = ['reading', 'cricket', 'coding', 'painting', 'gaming'];
+// var profile = ['sara', 19, 'female', 'student', hobbies];
+// Q: Ask the user to input a hobby. If the hobby exists in profile[4], print "Hobby found", else print "Hobby not found".
+
+var hobbies = ['reading', 'cricket', 'coding', 'painting', 'gaming'];
+var profile = ['sara', 19, 'female', 'student', hobbies];
+var hobbies = prompt('enter hobby');
+if (hobbies == profile[4][0]||
+        hobbies == profile[4][1]|| 
+        hobbies == profile[4][2]|| 
+        hobbies == profile[4][3]|| 
+        hobbies == profile[4][4]
+){console.log('Hobby found');}
+else{console.log('Hobby not found');}
