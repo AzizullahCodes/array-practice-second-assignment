@@ -299,21 +299,67 @@
 // Print "Skill belongs to [name]" or "Skill not found".
 
 // ans 
-let person1 = ['Sara', 25, ['HTML', 'CSS']];
- let person2 = ['Zain', 30, ['JavaScript', 'React']];
- let person3 = ['Ali', 27, ['Node', 'MongoDB']]; 
- var skill = prompt('enter skill');
- if (skill == person1[2][0]||
-        skill == person1[2][1]|| 
-        skill == person2[2][0]|| 
-        skill == person2[2][1]||
-        skill == person3[2][0]||
-        skill == person3[2][1]
- ){
-if(skill == person1[2][0]||
-        skill == person1[2][1]){console.log('skill belong to sara');}
-        else if (skill == person2[2][0]|| 
-        skill == person2[2][1]){console.log('skill belong to zain');}
-        else{console.log('skill belong to Ali')}
- }
- else{console.log('skill not found');}
+// let person1 = ['Sara', 25, ['HTML', 'CSS']];
+//  let person2 = ['Zain', 30, ['JavaScript', 'React']];
+//  let person3 = ['Ali', 27, ['Node', 'MongoDB']]; 
+//  var skill = prompt('enter skill');
+//  if (skill == person1[2][0]||
+//         skill == person1[2][1]|| 
+//         skill == person2[2][0]|| 
+//         skill == person2[2][1]||
+//         skill == person3[2][0]||
+//         skill == person3[2][1]
+//  ){
+// if(skill == person1[2][0]||
+//         skill == person1[2][1]){console.log('skill belong to sara');}
+//         else if (skill == person2[2][0]|| 
+//         skill == person2[2][1]){console.log('skill belong to zain');}
+//         else{console.log('skill belong to Ali')}
+//  }
+//  else{console.log('skill not found');} 
+// question no 30 
+// 🔹 Q. Build a Sentence Using Indexed Words
+
+// let words = ['The', 'quick', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy', 'dog'];
+// Manually build and print this sentence using only indexes (no join):
+// 👉 "The quick brown fox jumps over the lazy dog"
+// ans = 
+// var words = ['The', 'quick', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy', 'dog'];
+// var sentence =  words[0] + ' ' +  words[1]+ ' ' + words[2] + ' ' + words [3] + ' ' 
+// + words [4] + ' ' + words[5] + ' ' + words[6] + ' ' + words[7]+ ' '
+//  + words [8];
+// console.log(sentence);
+
+
+// question 31 
+// 🔹 Q. Compare Skills of Two Users
+// let user1 = ['Ahmed', ['HTML', 'CSS', 'JavaScript']];
+// let user2 = ['Ayesha', ['Python', 'JavaScript', 'SQL']];
+// Ask for a skill input.
+// Check if both users have that skill (manually).
+// If both have it → "Both users have this skill"
+// If only one → "Only one user has this skill"
+// If none → "Skill not found"
+
+let user1 = ['Ahmed', ['HTML', 'CSS', 'JavaScript']];
+ let user2 = ['Ayesha', ['Python', 'JavaScript', 'SQL']];
+var skill = prompt('enter a skill'); 
+if (skill == user1[1][0]||
+        skill == user1[1][1]||
+        skill == user1[1][2] &&
+        skill == user2[1][0]||
+        skill == user2 [1][1]|| 
+        skill == user2 [1][2]
+){console.log('skill found');
+        if(skill == user1[1][0]||
+        skill == user1[1][1]||
+        skill == user1[1][2] && 
+        skill == user2[1][0]||
+        skill == user2 [1][1]|| 
+        skill == user2 [1][2]){console.log('Both users have skilled');}
+
+
+
+
+}
+else{console.log('Skill not found');}
