@@ -269,3 +269,51 @@
                 //         hobbies == profile[4][4]
                 // ){console.log('Hobby found');}
                 // else{console.log('Hobby not found');}
+                 
+                // question 28 
+                // let student = ['Ali', 22, 'Male', ['Math', 'English', 'Science', 'Urdu', 'Computer']];
+// Ask the user to enter a subject.
+// ✅ If the subject is in the nested array (student[3]), print "Subject found"
+// ❌ Otherwise, print "Subject not found"
+ 
+// ans 
+                //  var student = ['Ali', 22, 'Male', ['Math', 'English', 'Science', 'Urdu', 'Computer']];
+                // var subject = prompt('enter a subject');
+                // if (subject == student[3][0]||
+                //         subject == student[3][1]||
+                //         subject == student[3][2]||
+                //         subject == student[3][3]||
+                //         subject == student[3][4]
+                // ){console.log('subject found');}
+                // else {console.log('subject not subject');}
+
+
+                // question no 29 
+                // 🔹 Q2. Manual Index Match from Multiple Profiles
+// You have 3 people:
+// let person1 = ['Sara', 25, ['HTML', 'CSS']];
+// let person2 = ['Zain', 30, ['JavaScript', 'React']];
+// let person3 = ['Ali', 27, ['Node', 'MongoDB']];
+// Ask for a skill input.
+// Check manually (no loop, no method) if that skill exists in any person's skills array.
+// Print "Skill belongs to [name]" or "Skill not found".
+
+// ans 
+let person1 = ['Sara', 25, ['HTML', 'CSS']];
+ let person2 = ['Zain', 30, ['JavaScript', 'React']];
+ let person3 = ['Ali', 27, ['Node', 'MongoDB']]; 
+ var skill = prompt('enter skill');
+ if (skill == person1[2][0]||
+        skill == person1[2][1]|| 
+        skill == person2[2][0]|| 
+        skill == person2[2][1]||
+        skill == person3[2][0]||
+        skill == person3[2][1]
+ ){
+if(skill == person1[2][0]||
+        skill == person1[2][1]){console.log('skill belong to sara');}
+        else if (skill == person2[2][0]|| 
+        skill == person2[2][1]){console.log('skill belong to zain');}
+        else{console.log('skill belong to Ali')}
+ }
+ else{console.log('skill not found');}
