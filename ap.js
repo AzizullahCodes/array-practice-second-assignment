@@ -234,7 +234,7 @@
 
 
 // 
-// 🔹 Question 1:
+// 🔹 Question 26:
 // You have a user input to check if a city is part of the student’s travel history.
 
 // var travelHistory = ['karachi', 'lahore', 'islamabad', 'quetta', 'peshawar'];
@@ -253,19 +253,19 @@
 
 
                 // 
-                // 🔹 Question 2:
+                // 🔹 Question 27:
 // You have this structure:
 // var hobbies = ['reading', 'cricket', 'coding', 'painting', 'gaming'];
 // var profile = ['sara', 19, 'female', 'student', hobbies];
 // Q: Ask the user to input a hobby. If the hobby exists in profile[4], print "Hobby found", else print "Hobby not found".
 
-var hobbies = ['reading', 'cricket', 'coding', 'painting', 'gaming'];
-var profile = ['sara', 19, 'female', 'student', hobbies];
-var hobbies = prompt('enter hobby');
-if (hobbies == profile[4][0]||
-        hobbies == profile[4][1]|| 
-        hobbies == profile[4][2]|| 
-        hobbies == profile[4][3]|| 
-        hobbies == profile[4][4]
-){console.log('Hobby found');}
-else{console.log('Hobby not found');}
+                // var hobbies = ['reading', 'cricket', 'coding', 'painting', 'gaming'];
+                // var profile = ['sara', 19, 'female', 'student', hobbies];
+                // var hobbies = prompt('enter hobby');
+                // if (hobbies == profile[4][0]||
+                //         hobbies == profile[4][1]|| 
+                //         hobbies == profile[4][2]|| 
+                //         hobbies == profile[4][3]|| 
+                //         hobbies == profile[4][4]
+                // ){console.log('Hobby found');}
+                // else{console.log('Hobby not found');}
