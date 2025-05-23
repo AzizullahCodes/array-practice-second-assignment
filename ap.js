@@ -252,25 +252,25 @@
                 //  else {console.log('city is not available');}
 
 
-                // 
-                // 🔹 Question 27:
-// You have this structure:
-// var hobbies = ['reading', 'cricket', 'coding', 'painting', 'gaming'];
-// var profile = ['sara', 19, 'female', 'student', hobbies];
-// Q: Ask the user to input a hobby. If the hobby exists in profile[4], print "Hobby found", else print "Hobby not found".
-
-                // var hobbies = ['reading', 'cricket', 'coding', 'painting', 'gaming'];
-                // var profile = ['sara', 19, 'female', 'student', hobbies];
-                // var hobbies = prompt('enter hobby');
-                // if (hobbies == profile[4][0]||
-                //         hobbies == profile[4][1]|| 
-                //         hobbies == profile[4][2]|| 
-                //         hobbies == profile[4][3]|| 
-                //         hobbies == profile[4][4]
-                // ){console.log('Hobby found');}
-                // else{console.log('Hobby not found');}
                  
-                // question 28 
+//                  🔹 Question 27:
+//  You have this structure:
+//  var hobbies = ['reading', 'cricket', 'coding', 'painting', 'gaming'];
+// var profile = ['sara', 19, 'female', 'student', hobbies];
+//   Q: Ask the user to input a hobby. If the hobby exists in profile[4], print "Hobby found", else print "Hobby not found".
+
+//                   var hobbies = ['reading', 'cricket', 'coding', 'painting', 'gaming'];
+//                   var profile = ['sara', 19, 'female', 'student', hobbies];
+//                   var hobbies = prompt('enter hobby');
+//                   if (hobbies == profile[4][0]||
+//                           hobbies == profile[4][1]|| 
+//                          hobbies == profile[4][2]|| 
+//                   hobbies == profile[4][3]|| 
+//                           hobbies == profile[4][4]
+//                   ){console.log('Hobby found');}
+// else{console.log('Hobby not found');}
+                 
+//                  question 28 
                 // let student = ['Ali', 22, 'Male', ['Math', 'English', 'Science', 'Urdu', 'Computer']];
 // Ask the user to enter a subject.
 // ✅ If the subject is in the nested array (student[3]), print "Subject found"
@@ -331,35 +331,4 @@
 // console.log(sentence);
 
 
-// question 31 
-// 🔹 Q. Compare Skills of Two Users
-// let user1 = ['Ahmed', ['HTML', 'CSS', 'JavaScript']];
-// let user2 = ['Ayesha', ['Python', 'JavaScript', 'SQL']];
-// Ask for a skill input.
-// Check if both users have that skill (manually).
-// If both have it → "Both users have this skill"
-// If only one → "Only one user has this skill"
-// If none → "Skill not found"
-
-let user1 = ['Ahmed', ['HTML', 'CSS', 'JavaScript']];
- let user2 = ['Ayesha', ['Python', 'JavaScript', 'SQL']];
-var skill = prompt('enter a skill'); 
-if (skill == user1[1][0]||
-        skill == user1[1][1]||
-        skill == user1[1][2] &&
-        skill == user2[1][0]||
-        skill == user2 [1][1]|| 
-        skill == user2 [1][2]
-){console.log('skill found');
-        if(skill == user1[1][0]||
-        skill == user1[1][1]||
-        skill == user1[1][2] && 
-        skill == user2[1][0]||
-        skill == user2 [1][1]|| 
-        skill == user2 [1][2]){console.log('Both users have skilled');}
-
-
-
-
-}
-else{console.log('Skill not found');}
+/
