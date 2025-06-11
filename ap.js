@@ -237,19 +237,19 @@
 // 🔹 Question 26:
 // You have a user input to check if a city is part of the student’s travel history.
 
-// var travelHistory = ['karachi', 'lahore', 'islamabad', 'quetta', 'peshawar'];
-// var student = ['ali', 22, 'male', 'pakistan', travelHistory];
-                // var city = prompt('enter a city to check that it is available in student tour');
-                // var travelHistory = ['karachi', 'lahore', 'islamabad', 'quetta', 'peshawar'];
-                //  var student = ['ali', 22, 'male', 'pakistan', travelHistory];
-                //  if (city == student[4][0]|| 
-                //         city == student[4][1]|| 
-                //         city == student [4][2]|| 
-                //         city == student [4][3]||
-                //         city == student [4][4]
+ var travelHistory = ['karachi', 'lahore', 'islamabad', 'quetta', 'peshawar'];
+ var student = ['ali', 22, 'male', 'pakistan', travelHistory];
+                 var city = prompt('enter a city to check that it is available in student tour');
+                 var travelHistory = ['karachi', 'lahore', 'islamabad', 'quetta', 'peshawar'];
+                  var student = ['ali', 22, 'male', 'pakistan', travelHistory];
+                  if (city == student[4][0]|| 
+                         city == student[4][1]|| 
+                         city == student [4][2]|| 
+                         city == student [4][3]||
+                        city == student [4][4]
 
-                //  ){console.log('city is available');}
-                //  else {console.log('city is not available');}
+                  ){console.log('city is available');}
+                  else {console.log('city is not available');}
 
 
                  
